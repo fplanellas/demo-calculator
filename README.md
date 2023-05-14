@@ -2,6 +2,8 @@
 This is a simple calculator component built with React.js. It allows you to perform basic arithmetic operations on two numbers.
 
 # Usage
+to run the app in production mode: https://fplanellas-calculator.netlify.app/
+
 Install the required dependencies by running the following command:
 npm install
 
