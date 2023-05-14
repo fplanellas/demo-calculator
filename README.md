@@ -6,6 +6,7 @@ Install the required dependencies by running the following command:
 npm install
 
 to boot into development mode: npm start.
+
 to run the tests: npm test.
 
 # Features
