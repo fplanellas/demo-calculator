@@ -1,5 +1,5 @@
-## React Calculator Component
-# This is a simple calculator component built with React.js. It allows you to perform basic arithmetic operations on two numbers.
+# React Calculator Component
+ This is a simple calculator component built with React.js. It allows you to perform basic arithmetic operations on two numbers.
 
 # Usage
 Install the required dependencies by running the following command:
