@@ -1,0 +1,48 @@
+$separator: 1rem;
+
+@mixin flexible($dis, $direction, $fwrap, $just, $align) {
+    display: $dis;
+    flex-flow: $direction $fwrap;
+    justify-content: $just;
+    align-items: $align;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    max-width: 20rem;
+    min-width: 15rem;
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .input-group {
+        @include flexible(flex, row, nowrap, flex-start, center);
+
+        &__input {
+            margin: $separator 0;
+
+            &--first {
+                margin-right: $separator;
+            }
+        }
+    }
+
+    .button-group {
+        @include flexible(flex, row, nowrap, space-between, center);
+
+        &__button {
+            padding: 0 $separator;
+        }
+    }
+
+    .error {
+        margin: $separator 0;
+    }
+
+    .result {
+        margin: $separator 0;
+    }
+}
